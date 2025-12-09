@@ -43,17 +43,5 @@
       "db-type": "dev",
       "db-tag": "12.2"
     },    
-    {
-      "name": "MySQL 8.0",
-      "os": "self-hosted",
-      "db-type": "mysql",
-      "db-tag": "8.0"
-    },
-    {
-      "name": "MySQL 8.4",
-      "os": "self-hosted",
-      "db-type": "mysql",
-      "db-tag": "8.4"
-    }
   ]
 }
