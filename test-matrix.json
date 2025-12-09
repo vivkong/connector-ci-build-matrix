@@ -1,87 +1,57 @@
 {
   "include": [
     {
-      "name": "MariaDB 11.4 (local) - windows",
-      "os": "windows-latest",
-      "db-type": "community",
-      "db-tag": "11.4"
-    },
-    {
-      "name": "MariaDB 11.4 (local) - macos",
-      "os": "macos-latest",
-      "db-type": "community",
-      "db-tag": "11.4"
-    },
-    {
       "name": "MariaDB 10.6",
-      "os": "ubuntu-latest",
+      "os": "self-hosted",
       "db-type": "community",
       "db-tag": "10.6"
     },
     {
       "name": "MariaDB 10.11",
-      "os": "ubuntu-latest",
+      "os": "self-hosted",
       "db-type": "community",
       "db-tag": "10.11",
       "additional-conf": "--max_allowed_packet=40M --innodb_log_file_size=400M"
     },
     {
       "name": "MariaDB 11.4",
-      "os": "ubuntu-latest",
+      "os": "self-hosted",
       "db-type": "community",
       "db-tag": "11.4"
     },
     {
       "name": "MariaDB 11.8",
-      "os": "ubuntu-latest",
+      "os": "self-hosted",
       "db-type": "community",
       "db-tag": "11.8"
     },
     {
       "name": "MariaDB 12.0",
-      "os": "ubuntu-latest",
+      "os": "self-hosted",
       "db-type": "community",
       "db-tag": "12.0"
     },
     {
       "name": "MariaDB 12.1 dev",
-      "os": "ubuntu-latest",
+      "os": "self-hosted",
       "db-type": "dev",
       "db-tag": "12.1"
     },
     {
       "name": "MariaDB 12.2 dev",
-      "os": "ubuntu-latest",
+      "os": "self-hosted",
       "db-type": "dev",
       "db-tag": "12.2"
     },    
     {
-      "name": "MariaDB 10.6 ES",
-      "os": "ubuntu-latest",
-      "db-type": "enterprise",
-      "db-tag": "10.6"
-    },
-    {
-      "name": "MariaDB 11.4 ES",
-      "os": "ubuntu-latest",
-      "db-type": "enterprise",
-      "db-tag": "11.4"
-    },
-    {
-      "name": "MariaDB 11.8 ES",
-      "os": "ubuntu-latest",
-      "db-type": "enterprise",
-      "db-tag": "11.8"
-    },    
-    {
       "name": "MySQL 8.0",
-      "os": "ubuntu-latest",
+      "os": "self-hosted",
       "db-type": "mysql",
       "db-tag": "8.0"
     },
     {
       "name": "MySQL 8.4",
-      "os": "ubuntu-latest",
+      "os": "self-hosted",
       "db-type": "mysql",
       "db-tag": "8.4"
     }
