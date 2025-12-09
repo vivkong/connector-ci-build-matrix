@@ -11,6 +11,10 @@ inputs:
     description: 'additional matrix'
     default: ''
     required: false
+  runs-on-env:
+    description: 'runs-on environment'
+    default: ''
+    required: false
 
 outputs:
   final-matrix:
@@ -26,4 +30,5 @@ runs:
       run: "${{ github.action_path }}/build.sh"
       env:
         ADDITIONAL_MATRIX: ${{ inputs.additional-matrix }}
+        RUNS_ON_ENV: ${{ inputs.runs-on-env }}
         GITHUB_EVENT_NAME: ${{ github.event_name }}

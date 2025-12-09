@@ -1,0 +1,47 @@
+{
+  "include": [
+    {
+      "name": "MariaDB 10.6",
+      "os": "S390X",
+      "db-type": "community",
+      "db-tag": "10.6"
+    },
+    {
+      "name": "MariaDB 10.11",
+      "os": "S390X",
+      "db-type": "community",
+      "db-tag": "10.11",
+      "additional-conf": "--max_allowed_packet=40M --innodb_log_file_size=400M"
+    },
+    {
+      "name": "MariaDB 11.4",
+      "os": "S390X",
+      "db-type": "community",
+      "db-tag": "11.4"
+    },
+    {
+      "name": "MariaDB 11.8",
+      "os": "S390X",
+      "db-type": "community",
+      "db-tag": "11.8"
+    },
+    {
+      "name": "MariaDB 12.0",
+      "os": "S390X",
+      "db-type": "community",
+      "db-tag": "12.0"
+    },
+    {
+      "name": "MariaDB 12.1",
+      "os": "S390X",
+      "db-type": "community",
+      "db-tag": "12.1"
+    },
+    {
+      "name": "MariaDB 12.2 dev",
+      "os": "S390X",
+      "db-type": "dev",
+      "db-tag": "12.2"
+    } 
+  ]
+}

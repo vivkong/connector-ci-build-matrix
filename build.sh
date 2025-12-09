@@ -3,6 +3,10 @@
 # Load the base test matrix
 BASE_MATRIX=$(cat "$GITHUB_ACTION_PATH/test-matrix.json")
 
+if [[ -n "${RUNS_ON_ENV}" && "${RUNS_ON_ENV}" == "s390x" ]]; then
+    BASE_MATRIX=$(cat "$GITHUB_ACTION_PATH/test-matrix-s390x.json")
+fi
+
 # Check if ADDITIONAL_MATRIX is provided and not empty
 if [ -n "${ADDITIONAL_MATRIX}" ]; then
     # Combine the matrices by merging the include arrays
