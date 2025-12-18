@@ -42,6 +42,6 @@
       "os": "self-hosted",
       "db-type": "dev",
       "db-tag": "12.2"
-    },    
+    } 
   ]
 }
